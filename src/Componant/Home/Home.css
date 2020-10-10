@@ -1,0 +1,44 @@
+img.card-img-top {
+   padding: 10px;
+}
+i.fas.fa-heart.icon {
+   color: red;
+}
+.customBtn {
+   width: 100%;
+   box-shadow: none;
+   text-align: center;
+   font-size: 16px;
+   transition: all 0.3s;
+   padding: 3px 0px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.customBtn:hover{
+   background-color: lightgray;
+}
+.likeSection {
+   border-bottom: 1px solid lightgray;
+   border-top: 1px solid lightgray;
+   padding: 4px 0px;
+}
+.word {
+   font-size: 16px;
+}
+.readMore {
+   font-weight: 600;
+}
+p.commentTitle {
+   margin-bottom: 5px;
+   border-bottom: 1px solid lightgray;
+}
+input.form-control{
+   border: none;
+   border-bottom: 1px solid;
+   border-radius: 0;
+}
+.form-control:focus{
+   outline: 0px !important;
+   box-shadow: none!important;
+}
